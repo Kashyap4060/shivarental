@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://shivabikerental.com
+
+# Sitemaps
+Sitemap: https://shivabikerental.com/sitemap.xml
