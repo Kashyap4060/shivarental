@@ -5,6 +5,7 @@ import Navbar from '@/components/layout/Navbar'
 import Footer from '@/components/layout/Footer'
 import WhatsAppButton from '@/components/layout/WhatsAppButton'
 import MobileBookingBar from '@/components/layout/MobileBookingBar'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -58,6 +59,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Footer />
         <WhatsAppButton />
         <MobileBookingBar />
+        <SpeedInsights />
       </body>
     </html>
   )
